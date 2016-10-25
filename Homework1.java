@@ -74,27 +74,34 @@ public class Homework1 {
     }  // End getAge
     
     public static double getTemp() {  // OBtains/Error Checks Age
-       double tempF = 0.0;
+       double temp = 0.0;
        final double COLDEST_TEMP = -128.6;  // Coldest Temperature recorded on Earth
        final double HOTTEST_TEMP = 134.1;  // Highest recorded tempurature on Earth
        
        try {  // try/catch to verify correct data type
          Scanner scannerIn = new Scanner(System.in);
          System.out.print("Enter current temperature in Fahrenheit (32.0): ");
-         tempF = scannerIn.nextDouble();
+         temp = scannerIn.nextDouble();
        } catch (InputMismatchException e) {
          System.out.println("Invalid entry. Incorrect data type.");
-         tempF = Homework1.getTemp();
+         temp = Homework1.getTemp();
        }  // End try/catch
        
-       if ((tempF > COLDEST_TEMP) && (tempF < HOTTEST_TEMP)) {  // Verrifies correct temp range
-         return tempF;
+       if ((temp > COLDEST_TEMP) && (temp < HOTTEST_TEMP)) {  // Verrifies correct temp range
+         double tempC = tempConv(temp);
+         return tempC;
        } else {
          System.out.println("Temperature is out of range for recorded temperatures on earth.");
          System.exit(0);
-         return tempF;
        }  // End if/else
+       return temp;
     }  // End getTemp
+
+    public static double tempConv (double tempF) {  // Converts Farenheit to Celsius
+       double tempC = 0.0; 
+       tempC = ((tempF-32.0)*(.5556));
+       return tempC;
+    }
 
     public static void main(String[] args) {  // Begin main method
         System.out.println("Welcome to the Student Survey");
@@ -102,7 +109,7 @@ public class Homework1 {
         double quiz1 = Homework1.getQuiz();
         double quiz2 = Homework1.getQuiz();
         int age = Homework1.getAge();
-        double temp = Homework1.getTemp();
+        double tempConverted = Homework1.getTemp();
 
         System.out.println("Thank you for completing our survey.\n");
         System.out.println("\n***************************************");
@@ -112,7 +119,7 @@ public class Homework1 {
         System.out.println("Quiz 1 Score: " + quiz1);
         System.out.println("Quiz 2 Score: " + quiz2);
         System.out.println("Age: " + age);
-        System.out.println("Temperature in F: " + temp);
+        System.out.println("Temperature in F: " + tempConverted);
         System.out.println("***************************************");
     }  // End main
 }  // End Homework1
