@@ -1,0 +1,9 @@
+# Compiled Source #
+###################
+*.class
+
+# Packages #
+############
+*.gz
+*.tar
+*.zip
