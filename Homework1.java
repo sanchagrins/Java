@@ -7,6 +7,7 @@
 // Import required Java classes
 import java.io.*;
 import java.util.*;
+import java.text.DecimalFormat;
 
 public class Homework1 {
     public static int getEmplid () {  // Obtains/error checks EMPLID
@@ -98,9 +99,13 @@ public class Homework1 {
     }  // End getTemp
 
     public static double tempConv (double tempF) {  // Converts Farenheit to Celsius
-       double tempC = 0.0; 
+       double tempC = 0.0;
+       double rndTemp = 0.0;
+ 
        tempC = ((tempF-32.0)*(.5556));
-       return tempC;
+       DecimalFormat twoD = new DecimalFormat("#.##");
+       rndTemp = Double.valueOf(twoD.format(tempC));
+       return rndTemp;
     }
 
     public static void main(String[] args) {  // Begin main method
@@ -110,16 +115,18 @@ public class Homework1 {
         double quiz2 = Homework1.getQuiz();
         int age = Homework1.getAge();
         double tempConverted = Homework1.getTemp();
+        double quizAvg = (quiz1 + quiz2)/2;
 
-        System.out.println("Thank you for completing our survey.\n");
+        System.out.println("\nThank you for completing our survey.\n");
         System.out.println("\n***************************************");
         System.out.println("*            Survey Results           *");
         System.out.println("***************************************");
         System.out.println("Student EMPLID: " + emplidChk);
         System.out.println("Quiz 1 Score: " + quiz1);
         System.out.println("Quiz 2 Score: " + quiz2);
+        System.out.println("Quiz Average: " + quizAvg);
         System.out.println("Age: " + age);
-        System.out.println("Temperature in F: " + tempConverted);
+        System.out.println("Temperature in Celsius: " + tempConverted + "\u00B0");
         System.out.println("***************************************");
     }  // End main
 }  // End Homework1
