@@ -1,7 +1,7 @@
 /* File:	Homework1.java
  * Author:	Stephen Sanchagrin
  * Date:	10/25/2016
- * Repository:	https://github.com/sanchagrins/UMUC-Java/
+ * Repository:	https://github.com/sanchagrins/Java/
  * Purpose:	Demonstrate objectives learned in Week 2
  */
 
