@@ -7,6 +7,7 @@
  */
 
 import java.io.*;  // Imports BufferReader and FileReader classes
+import java.util.regex.*;  // Imports Pattern and Matcher classes
 
 public class FromLoop {
     public static void main(String[] args) throws java.io.IOException {
@@ -14,18 +15,24 @@ public class FromLoop {
       //  Declare Local Variables
       int count = 0;
       String line;
+      String pattern = "\\S+@\\S+";
+
+      // Create a Pattern object
+      Pattern r = Pattern.compile(pattern);
       
-      //  Read in File
+      //  Read in the file
       FileReader in = new FileReader("mbox-short.txt");
       BufferedReader br = new BufferedReader(in);
 
       //  Loops through file line by line
       while ((line = br.readLine()) != null) {
-            
+ 
             //  Extracts lines that start with "From: "
             if (line.startsWith("From: ")) {
-               
-               System.out.println(line);
+               Matcher m = r.matcher(line);
+               if (m.find()) {
+                  System.out.println("Found Email: " + m.group(0));
+               }  // End if
                count++;
             }  // End if
       }  // End While
