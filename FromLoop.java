@@ -8,6 +8,8 @@
 
 import java.io.*;  // Imports BufferReader and FileReader classes
 import java.util.regex.*;  // Imports Pattern and Matcher classes
+import java.util.ArrayList;
+import java.util.HashSet;
 
 public class FromLoop {
     public static void main(String[] args) throws java.io.IOException {
@@ -19,6 +21,9 @@ public class FromLoop {
 
       // Create a Pattern object
       Pattern r = Pattern.compile(pattern);
+
+      // Create List Container 
+      ArrayList<String> l = new ArrayList<String>();
       
       //  Read in the file
       FileReader in = new FileReader("mbox-short.txt");
@@ -32,12 +37,15 @@ public class FromLoop {
                Matcher m = r.matcher(line);
                if (m.find()) {
                   System.out.println("Found Email: " + m.group(0));
+                  l.add(m.group(0));  //  Adds email to list
                }  // End if
                count++;
             }  // End if
       }  // End While
       System.out.println("Number of Lines: " + count);
-
+      System.out.println(l);
+      ArrayList<String> newList = new ArrayList<String>(new HashSet<String>(l));
+      System.out.println(newList);
     }  // End Main
 }  //  End FromLoop
 
