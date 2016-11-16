@@ -63,6 +63,7 @@ public class PolygonGen {
           System.out.println("getYCoord() results: " + polygon[i].getYcoord());
           System.out.println("getApothem() results: " + polygon[i].getApothem());
           System.out.println("getPerimeter() results: " + polygon[i].getPerimeter());
+          System.out.println("getArea() results: " + polygon[i].getArea());
       }
    } // End main()
 
