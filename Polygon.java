@@ -59,11 +59,6 @@ class Polygon {
        apothem = sideLength/(2*Math.tan(Math.PI/numSides));
    }
 
-   // perimeter Setter Method
-   //void setPerimeter(double newValue) {
-   //    perimeter = newValue;
-   //}
-
    // numSides getter method
    public int getNumSides() {
        return numSides;
@@ -84,11 +79,6 @@ class Polygon {
        return yCoord;
    }
 
-   // apothem getter method
-   //public double getApothem() {
-   //    return apothem;
-   //}
-
    // perimeter getter method
    public double getPerimeter() {
        perimeter = numSides * sideLength;
@@ -101,8 +91,8 @@ class Polygon {
    }
 
    // Calculates polygon area
-   public double getArea(double apoth, double per) {
-       double area = .5 * apoth * per;
+   public double getArea() {
+       double area = .5 * apothem * perimeter;
        return area;
    }
 
