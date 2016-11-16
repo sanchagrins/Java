@@ -8,16 +8,12 @@
 class Employee {
 
     // Field Declaration
-    private int id = 0;
+    private int id;
+    private static int employeeNum = 0;
     private String firstName;
     private String lastName;
     private String email;
     public String report;
-
-    // Setter Method for Employee Id
-    void setID(int newValue) {
-         id = newValue;
-    }
 
     // Setter Method for Employee First Name
     void setFirstName(String newValue) {
@@ -34,18 +30,24 @@ class Employee {
          email = newValue;
     }
 
+    // Getter Method for Emplyoee ID
+    public int getID() {
+         return id;
+    }
+
     // Getter Method for Emplyoee Report
     public String showData() {
          String strId = Integer.toString(id);
          report = "Name: " + firstName + " " + lastName + "\n" +
                   "Employee ID: " + strId + "\n" +
-                  "Employee EmaiL: " + email + "\n";
+                  "Employee EmaiL: " + email + "\n" +
+                  "--------------------------------------";
          return report;
     }
 
     // Default Constructor
     public Employee() {
-         id = 9999;
+         id = ++employeeNum;
          firstName = "John";
          lastName = "Doe";
          email = "doej@company-usa.com";
