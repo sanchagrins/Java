@@ -44,13 +44,14 @@ class EmployeeRecord {
           email = in.nextLine();
           
           // Sends variables to setter methods
-          employee[i].setID(3802);
+          //employee[i].setID(3802);
           employee[i].setFirstName(firstName);
           employee[i].setLastName(lastName);
           employee[i].setEmail(email);
 
        }
        
+       System.out.println("-----------Emplyoee Report------------");
        // Loops through employee array generate report
        for (int i=0; i<employee.length;i++) {
           System.out.println(employee[i].showData());
