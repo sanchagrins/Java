@@ -5,10 +5,10 @@
  */
 
 import java.util.*;
-import java.io.*;
 
 public class PolygonGen {
-
+   
+   // Obtain user input for number of sides and validate input
    public static int getNumSides() {
       int sides;
 
@@ -24,6 +24,7 @@ public class PolygonGen {
       return sides;
    } // End getNumSides
 
+   // Obtain user input for side length and validate input
    public static double getSideLength() {
       double length;
 
@@ -39,6 +40,7 @@ public class PolygonGen {
       return length;
    } // End getLength
 
+   // Obtain user input for xCoords and validate input
    public static double getX() {
       double x;
 
@@ -54,6 +56,7 @@ public class PolygonGen {
       return x;
    } // End getX
 
+   // Obtains user input for yCoords and validate input
    public static double getY() {
       double y;
 
@@ -69,6 +72,7 @@ public class PolygonGen {
       return y;
    } // End getY()
 
+   // Begin main method
    public static void main(String[] args) {
       
       // Define Local Variables
@@ -96,7 +100,7 @@ public class PolygonGen {
           // Create polygon object
           polygon[i] = new Polygon();
 
-          // Obtain user input
+          // Call methods to obtain user input for polygon objects
           System.out.println("Regular Polygon #" + (i+1) + " Data:");
           
           numSides = PolygonGen.getNumSides();
@@ -114,6 +118,7 @@ public class PolygonGen {
           polygon[i].setApothem();
       } // End for
       
+      // Begin regulare polygon reporting
       for (int i=0;i<polygon.length;i++) {
           System.out.println("*************************************");
           System.out.println("Polygon #" + (i+1) + " Results:");
