@@ -1,12 +1,74 @@
-/* File:	PolygonGen.java
+/* File:	TestPolygon.java
  * Author:	sanchagrins
  * Date:	11/16/2016
  * Purpose:	Tests out Polygon class (Polygon.java)
  */
 
 import java.util.*;
+import java.io.*;
 
 public class PolygonGen {
+
+   public static int getNumSides() {
+      int sides;
+
+      try {
+        Scanner in = new Scanner(System.in);
+        System.out.print("\tNumber of Sides: ");
+        sides = in.nextInt();
+      } catch (InputMismatchException e) {
+        System.out.println("Invalid entry. Incorrect data type." +
+                           " Please input type integer (Ex: 5)");
+        sides = PolygonGen.getNumSides();
+      }
+      return sides;
+   } // End getNumSides
+
+   public static double getSideLength() {
+      double length;
+
+      try {
+        Scanner in = new Scanner(System.in);
+        System.out.print("\tSide Length: ");
+        length = in.nextDouble();
+      } catch (InputMismatchException e) {
+        System.out.println("Invalid entry. Incorrect data type." +
+                           " Please input type double (Ex: 0.0)");
+        length = PolygonGen.getSideLength();
+      }
+      return length;
+   } // End getLength
+
+   public static double getX() {
+      double x;
+
+      try {
+        Scanner in = new Scanner(System.in);
+        System.out.print("\txCoord: ");
+        x = in.nextDouble();
+      } catch (InputMismatchException e) {
+        System.out.println("Invalid entry. Incorrect data type." +
+                           " Please input type double (Ex: 0.0)");
+        x = PolygonGen.getX();
+      }
+      return x;
+   } // End getX
+
+   public static double getY() {
+      double y;
+
+      try {
+        Scanner in = new Scanner(System.in);
+        System.out.print("\tyCoord: ");
+        y = in.nextDouble();
+      } catch (InputMismatchException e) {
+        System.out.println("Invalid entry. Incorrect data type." +
+                           " Please input type double (Ex: 0.0)");
+        y = PolygonGen.getY();
+      }
+      return y;
+   } // End getY()
+
    public static void main(String[] args) {
       
       // Define Local Variables
@@ -18,13 +80,15 @@ public class PolygonGen {
       double perimeter;
      
       // Create an arrary to store 5 polygon objects
-      Polygon[] polygon = new Polygon[2];
+      Polygon[] polygon = new Polygon[5];
 
       // Create one Polygon Object using the default constructor
       polygon[0] = new Polygon();
 
       // Create Scanner object for reading input
       Scanner in = new Scanner(System.in);
+      System.out.println("Regular Polygon #1 Data: Atuomatically generated " + 
+                         "with the default constructor.");
 
       // Loop through the remaining 4 polgon objects providing input
       for (int i=1;i<polygon.length;i++) {
@@ -33,21 +97,18 @@ public class PolygonGen {
           polygon[i] = new Polygon();
 
           // Obtain user input
-          System.out.println("Input Regular Polygon #" + i + " Data:");
-          System.out.print("\tNumber of Sides: ");
-          numSides = Integer.parseInt(in.nextLine());
+          System.out.println("Regular Polygon #" + (i+1) + " Data:");
+          
+          numSides = PolygonGen.getNumSides();
           polygon[i].setNumSides(numSides);
 
-          System.out.print("\tSide Length: ");
-          sideLength = Double.parseDouble(in.nextLine());
+          sideLength = PolygonGen.getSideLength();
           polygon[i].setSideLength(sideLength);
           
-          System.out.print("\txCoord: ");
-          xCoord = Double.parseDouble(in.nextLine());
+          xCoord = PolygonGen.getX();
           polygon[i].setXcoord(xCoord);
 
-          System.out.print("\tyCoord: ");
-          yCoord = Double.parseDouble(in.nextLine());
+          yCoord = PolygonGen.getY();
           polygon[i].setYcoord(yCoord);
 
           polygon[i].setApothem();
