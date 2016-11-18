@@ -87,7 +87,7 @@ public class PolygonGen {
 
       // Create Scanner object for reading input
       Scanner in = new Scanner(System.in);
-      System.out.println("Regular Polygon #1 Data: Atuomatically generated " + 
+      System.out.println("Regular Polygon #1 Data: Automatically generated " + 
                          "with the default constructor.");
 
       // Loop through the remaining 4 polgon objects providing input
