@@ -14,7 +14,7 @@ class Polygon {
    private double apothem;
    private double perimeter;
 
-   // No Argument Constructor
+   // Default Constructor
    public Polygon(){
        numSides = 4;
        sideLength = 10.0;
@@ -59,33 +59,33 @@ class Polygon {
        apothem = sideLength/(2*Math.tan(Math.PI/numSides));
    }
 
-   // numSides getter method
+   // numSides Getter Method
    public int getNumSides() {
        return numSides;
    }
 
-   // sideLength getter method
+   // sideLength Getter Method
    public double getSideLength() {
        return sideLength;
    }
 
-   // xCoord getter method
+   // xCoord Getter Method
    public double getXcoord() {
        return xCoord;
    }
 
-   // yCoord getter method
+   // yCoord Getter Method
    public double getYcoord() {
        return yCoord;
    }
 
-   // perimeter getter method
+   // perimeter Getter Method
    public double getPerimeter() {
        perimeter = numSides * sideLength;
        return perimeter;
    }
  
-   // Calculate apothem
+   // apothem Getter Method
    public double getApothem() {
        return apothem;
    }
@@ -96,7 +96,7 @@ class Polygon {
        return area;
    }
 
-   // converts/Displays fields as String
+   // Converts/Displays fields as String
    public String toString() {
        String strNumSides = Integer.toString(numSides);
        String strSideLength = Double.toString(sideLength);
