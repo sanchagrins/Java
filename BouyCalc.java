@@ -7,28 +7,47 @@ public class BouyCalc {
 		String lines;
 		String matches;
 		HashMap avgWspd;
+		HashMap avgGust;
+		HashMap avgWvht;
+		HashMap avgPres;
 
 		Bouy bouy = new Bouy();
-		System.out.println("Fetching data for bouy NDBC 42001 from nbc.noaa.gov...");
+		System.out.println("Fetching data from nbc.noaa.gov:");
+		System.out.println("Date Range: 08-25-2005 - 08-31-2005");
+		System.out.println("NDBC ID: " + bouy.getID());
 		String[] results = bouy.getData();
-		System.out.println(results[0]);
 
+		// Print Raw Data
+		System.out.println("=====================Begin Raw Data=======================");
+		System.out.println(results[0]);
+		System.out.println("======================End Raw Data========================");
+
+		// Print Fetch Summary
 		lines = results[1];
 		matches = results[2];
 		System.out.println("Feteched " + lines  + " lines");
 		System.out.println("Found " + matches + " matches");
-
-		System.out.println("Calculating avg. wind speed for date range...");
+        
+        // Calculate Average Wind Speed
+		System.out.print("\nCalculating avg. wind speed for date range...");
 		avgWspd = bouy.getAvgWspd(results);
+		System.out.println("Done.");
 
-		Set set = avgWspd.entrySet();
+		// Calculate Average Wind Gust
+		System.out.print("Calculating avg. wind gust for date range...");
+		avgGust = bouy.getAvgGust(results);
+		System.out.println("Done.");
 
-		Iterator i = set.iterator();
+		
+		System.out.print("Calculating avg. wave height for date range...");
+		avgWvht = bouy.getAvgWvht(results);
+		System.out.println("Done.");
 
-		while(i.hasNext()) {
-			Map.Entry me = (Map.Entry)i.next();
-			System.out.print(me.getKey() + ": ");
-			System.out.println(me.getValue());
-		}
+		System.out.print("Calculating avg barometric pressure for date range...");
+		avgPres = bouy.getAvgPres(results);
+		System.out.println("Done.\n");
+
+		String report = bouy.generateReport(avgWspd, avgGust, avgWvht, avgPres);
+		System.out.println(report);
 	}
 }
