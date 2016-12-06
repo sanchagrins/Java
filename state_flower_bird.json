@@ -1,0 +1,302 @@
+{
+   "ALABAMA": {
+      "FlowerCommon": "Camellia",
+      "FlowerScientific": "Camellia japonica",
+      "BirdCommon": "Northern Flicker\n(Yellowhammer)",
+      "BirdScientific": "Colaptes auratus"
+   },
+   "ALASKA": {
+      "FlowerCommon": "Forget-me-not",
+      "FlowerScientific": "Myosotis alpestris",
+      "BirdCommon": "Willow Ptarmigan",
+      "BirdScientific": "Lagopus lagopus"
+   },
+   "ARIZONA": {
+      "FlowerCommon": "Saguaro Cactus Blossom",
+      "FlowerScientific": "Carnegiea gigantea",
+      "BirdCommon": "Cactus Wren",
+      "BirdScientific": "Campylorhynchusbrunneicapillus"
+   },
+   "ARKANSAS": {
+      "FlowerCommon": "Apple Blossom",
+      "FlowerScientific": "Malus",
+      "BirdCommon": "Northern Mockingbird",
+      "BirdScientific": "Mimus polyglottos"
+   },
+   "CALIFORNIA": {
+      "FlowerCommon": "California Poppy",
+      "FlowerScientific": "Eschscholzia californica",
+      "BirdCommon": "California Quail",
+      "BirdScientific": "Callipepla californica"
+   },
+   "COLORADO": {
+      "FlowerCommon": "Rocky Mountain Columbine",
+      "FlowerScientific": "Aquilegia caerulea",
+      "BirdCommon": "Lark Bunting",
+      "BirdScientific": "Calamospiza melanocorys"
+   },
+   "CONNECTICUT": {
+      "FlowerCommon": "Mountain Laurel",
+      "FlowerScientific": "Kalmia latifolia",
+      "BirdCommon": "American Robin",
+      "BirdScientific": "Turdus migratorius"
+   },
+   "DELAWARE": {
+      "FlowerCommon": "Peach Blossom",
+      "FlowerScientific": "Prunus persica",
+      "BirdCommon": "Delaware Blue Hen",
+      "BirdScientific": "Gallus gallus"
+   },
+   "FLORIDA": {
+      "FlowerCommon": "Orange Blossom",
+      "FlowerScientific": "Citrus sinensis",
+      "BirdCommon": "Northern Mockingbird",
+      "BirdScientific": "Mimus polyglottos"
+   },
+   "GEORGIA": {
+      "FlowerCommon": "Cherokee Rose",
+      "FlowerScientific": "Rosa laevigata",
+      "BirdCommon": "Brown Thrasher",
+      "BirdScientific": "Toxostoma rufum"
+   },
+   "HAWAII": {
+      "FlowerCommon": "Hawaiian Hibiscus\n(*Maʻo Hau Hele*)",
+      "FlowerScientific": "Hibiscus brackenridgei",
+      "BirdCommon": "*Nēnē*\nOr Hawaiian Goose",
+      "BirdScientific": "Branta sandvicensis"
+   },
+   "IDAHO": {
+      "FlowerCommon": "Syringa, Mock Orange",
+      "FlowerScientific": "Philadelphus lewisii",
+      "BirdCommon": "Mountain Bluebird",
+      "BirdScientific": "Sialia currucoides"
+   },
+   "ILLINOIS": {
+      "FlowerCommon": "Violet",
+      "FlowerScientific": "Viola",
+      "BirdCommon": "Northern Cardinal",
+      "BirdScientific": "Cardinalis cardinalis"
+   },
+   "INDIANA": {
+      "FlowerCommon": "Peony",
+      "FlowerScientific": "Paeonia",
+      "BirdCommon": "Northern Cardinal",
+      "BirdScientific": "Cardinalis cardinalis"
+   },
+   "IOWA": {
+      "FlowerCommon": "Wild Prairie Rose",
+      "FlowerScientific": "Rosa arkansana",
+      "BirdCommon": "Eastern Goldfinch\nAka American Goldfinch",
+      "BirdScientific": "Spinus tristis"
+   },
+   "KANSAS": {
+      "FlowerCommon": "Sunflower",
+      "FlowerScientific": "Helianthus annuus",
+      "BirdCommon": "Western Meadowlark",
+      "BirdScientific": "Sturnella neglecta"
+   },
+   "KENTUCKY": {
+      "FlowerCommon": "Goldenrod",
+      "FlowerScientific": "Solidago gigantea",
+      "BirdCommon": "Northern Cardinal",
+      "BirdScientific": "Cardinalis cardinalis"
+   },
+   "LOUISIANA": {
+      "FlowerCommon": "Magnolia",
+      "FlowerScientific": "Magnolia",
+      "BirdCommon": "Brown Pelican",
+      "BirdScientific": "Pelecanus occidentalis"
+   },
+   "MAINE": {
+      "FlowerCommon": "White Pine Cone And Tassel",
+      "FlowerScientific": "Pinus strobus",
+      "BirdCommon": "Black-capped Chickadee",
+      "BirdScientific": "Poecile atricapilla"
+   },
+   "MARYLAND": {
+      "FlowerCommon": "Black-eyed Susan",
+      "FlowerScientific": "Rudbeckia hirta",
+      "BirdCommon": "Baltimore Oriole",
+      "BirdScientific": "Icterus galbula"
+   },
+   "MASSACHUSETTS": {
+      "FlowerCommon": "Mayflower",
+      "FlowerScientific": "Epigaea repens",
+      "BirdCommon": "Black-capped Chickadee",
+      "BirdScientific": "Poecile atricapilla"
+   },
+   "MICHIGAN": {
+      "FlowerCommon": "Apple Blossom",
+      "FlowerScientific": "Malus",
+      "BirdCommon": "American Robin",
+      "BirdScientific": "Turdus migratorius"
+   },
+   "MINNESOTA": {
+      "FlowerCommon": "Pink And White Lady's Slipper",
+      "FlowerScientific": "Cypripedium reginae",
+      "BirdCommon": "Common Loon",
+      "BirdScientific": "Gavia immer"
+   },
+   "MISSISSIPPI": {
+      "FlowerCommon": "Magnolia",
+      "FlowerScientific": "Magnolia",
+      "BirdCommon": "Northern Mockingbird",
+      "BirdScientific": "Mimus polyglottos"
+   },
+   "MISSOURI": {
+      "FlowerCommon": "Hawthorn",
+      "FlowerScientific": "Crataegus",
+      "BirdCommon": "Eastern Bluebird",
+      "BirdScientific": "Sialia sialis"
+   },
+   "MONTANA": {
+      "FlowerCommon": "Bitterroot",
+      "FlowerScientific": "Lewisia rediviva",
+      "BirdCommon": "Western Meadowlark",
+      "BirdScientific": "Sturnella neglecta"
+   },
+   "NEBRASKA": {
+      "FlowerCommon": "Goldenrod",
+      "FlowerScientific": "Solidago gigantea",
+      "BirdCommon": "Western Meadowlark",
+      "BirdScientific": "Sturnella neglecta"
+   },
+   "NEVADA": {
+      "FlowerCommon": "Sagebrush",
+      "FlowerScientific": "Artemisia tridentata",
+      "BirdCommon": "Mountain Bluebird",
+      "BirdScientific": "Sialia currucoides"
+   },
+   "NEW HAMPSHIRE": {
+      "FlowerCommon": "Purple Lilac",
+      "FlowerScientific": "Syringa vulgaris",
+      "BirdCommon": "Purple Finch",
+      "BirdScientific": "Carpodacus purpureus"
+   },
+   "NEW JERSEY": {
+      "FlowerCommon": "Violet",
+      "FlowerScientific": "Viola sororia",
+      "BirdCommon": "Eastern Goldfinch",
+      "BirdScientific": "Spinus tristis"
+   },
+   "NEW MEXICO": {
+      "FlowerCommon": "Yucca Flower",
+      "FlowerScientific": "Yucca",
+      "BirdCommon": "Roadrunner\nAka Greater Roadrunner",
+      "BirdScientific": "Geococcyx californianus"
+   },
+   "NEW YORK": {
+      "FlowerCommon": "Rose",
+      "FlowerScientific": "Rosa",
+      "BirdCommon": "Eastern Bluebird",
+      "BirdScientific": "Sialia sialis"
+   },
+   "NORTH CAROLINA": {
+      "FlowerCommon": "Flowering Dogwood",
+      "FlowerScientific": "Cornus florida",
+      "BirdCommon": "Northern Cardinal",
+      "BirdScientific": "Cardinalis cardinalis"
+   },
+   "NORTH DAKOTA": {
+      "FlowerCommon": "Wild Prairie Rose",
+      "FlowerScientific": "Rosa blanda*\nor *arkansana",
+      "BirdCommon": "Western Meadowlark",
+      "BirdScientific": "Sturnella neglecta"
+   },
+   "OHIO": {
+      "FlowerCommon": "Scarlet Carnation",
+      "FlowerScientific": "Dianthus caryophyllus",
+      "BirdCommon": "Northern Cardinal",
+      "BirdScientific": "Cardinalis cardinalis"
+   },
+   "OKLAHOMA": {
+      "FlowerCommon": "Oklahoma Rose",
+      "FlowerScientific": "Rosa",
+      "BirdCommon": "Scissor-tailed Flycatcher",
+      "BirdScientific": "Tyrannus forficatus"
+   },
+   "OREGON": {
+      "FlowerCommon": "Oregon Grape",
+      "FlowerScientific": "Berberis aquifolium",
+      "BirdCommon": "Western Meadowlark",
+      "BirdScientific": "Sturnella neglecta"
+   },
+   "PENNSYLVANIA": {
+      "FlowerCommon": "Mountain Laurel",
+      "FlowerScientific": "Kalmia latifolia",
+      "BirdCommon": "Ruffed Grouse",
+      "BirdScientific": "Bonasa umbellus"
+   },
+   "RHODE ISLAND": {
+      "FlowerCommon": "Violet",
+      "FlowerScientific": "Viola",
+      "BirdCommon": "Rhode Island Red",
+      "BirdScientific": "Gallus gallus"
+   },
+   "SOUTH CAROLINA": {
+      "FlowerCommon": "Yellow Jessamine",
+      "FlowerScientific": "Gelsemium sempervirens",
+      "BirdCommon": "Carolina Wren",
+      "BirdScientific": "Mimus polyglottos"
+   },
+   "SOUTH DAKOTA": {
+      "FlowerCommon": "Pasque Flower",
+      "FlowerScientific": "Pulsatilla hirsutissima",
+      "BirdCommon": "Ring-necked Pheasant",
+      "BirdScientific": "Phasianus colchicus"
+   },
+   "TENNESSEE": {
+      "FlowerCommon": "Iris",
+      "FlowerScientific": "Iris",
+      "BirdCommon": "Northern Mockingbird",
+      "BirdScientific": "Mimus polyglottos"
+   },
+   "TEXAS": {
+      "FlowerCommon": "Bluebonnet Sp.",
+      "FlowerScientific": "Lupinus sp.",
+      "BirdCommon": "Northern Mockingbird",
+      "BirdScientific": "Mimus polyglottos"
+   },
+   "UTAH": {
+      "FlowerCommon": "Sego Lily",
+      "FlowerScientific": "Calochortus nuttallii",
+      "BirdCommon": "California Gull",
+      "BirdScientific": "Larus californicus"
+   },
+   "VERMONT": {
+      "FlowerCommon": "Red Clover",
+      "FlowerScientific": "Trifolium pratense",
+      "BirdCommon": "Hermit Thrush",
+      "BirdScientific": "Catharus guttatus"
+   },
+   "VIRGINIA": {
+      "FlowerCommon": "American Dogwood",
+      "FlowerScientific": "Cornus florida",
+      "BirdCommon": "Northern Cardinal",
+      "BirdScientific": "Cardinalis cardinalis"
+   },
+   "WASHINGTON": {
+      "FlowerCommon": "Coast Rhododendron",
+      "FlowerScientific": "Rhododendron macrophyllum",
+      "BirdCommon": "Willow Goldfinch\nA.k.a American Goldfinch",
+      "BirdScientific": "Spinus tristis"
+   },
+   "WEST VIRGINIA": {
+      "FlowerCommon": "Rhododendron",
+      "FlowerScientific": "Rhododendron maximum",
+      "BirdCommon": "Northern Cardinal",
+      "BirdScientific": "Cardinalis cardinalis"
+   },
+   "WISCONSIN": {
+      "FlowerCommon": "Wood Violet",
+      "FlowerScientific": "Viola papilionacea",
+      "BirdCommon": "American Robin",
+      "BirdScientific": "Turdus migratorius"
+   },
+   "WYOMING": {
+      "FlowerCommon": "Indian Paintbrush",
+      "FlowerScientific": "Castilleja linariifolia",
+      "BirdCommon": "Western Meadowlark",
+      "BirdScientific": "Sturnella neglecta"
+   }
+}
