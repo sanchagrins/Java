@@ -2,7 +2,7 @@
    "ALABAMA": {
       "FlowerCommon": "Camellia",
       "FlowerScientific": "Camellia japonica",
-      "BirdCommon": "Northern Flicker\n(Yellowhammer)",
+      "BirdCommon": "Northern Flicker aka Yellowhammer",
       "BirdScientific": "Colaptes auratus"
    },
    "ALASKA": {
@@ -62,7 +62,7 @@
    "HAWAII": {
       "FlowerCommon": "Hawaiian Hibiscus\n(*Maʻo Hau Hele*)",
       "FlowerScientific": "Hibiscus brackenridgei",
-      "BirdCommon": "*Nēnē*\nOr Hawaiian Goose",
+      "BirdCommon": "Nēnē aka Hawaiian Goose",
       "BirdScientific": "Branta sandvicensis"
    },
    "IDAHO": {
@@ -86,7 +86,7 @@
    "IOWA": {
       "FlowerCommon": "Wild Prairie Rose",
       "FlowerScientific": "Rosa arkansana",
-      "BirdCommon": "Eastern Goldfinch\nAka American Goldfinch",
+      "BirdCommon": "Eastern Goldfinch aka American Goldfinch",
       "BirdScientific": "Spinus tristis"
    },
    "KANSAS": {
@@ -182,7 +182,7 @@
    "NEW MEXICO": {
       "FlowerCommon": "Yucca Flower",
       "FlowerScientific": "Yucca",
-      "BirdCommon": "Roadrunner\nAka Greater Roadrunner",
+      "BirdCommon": "Roadrunner aka Greater Roadrunner",
       "BirdScientific": "Geococcyx californianus"
    },
    "NEW YORK": {
@@ -199,7 +199,7 @@
    },
    "NORTH DAKOTA": {
       "FlowerCommon": "Wild Prairie Rose",
-      "FlowerScientific": "Rosa blanda*\nor *arkansana",
+      "FlowerScientific": "Rosa arkansana",
       "BirdCommon": "Western Meadowlark",
       "BirdScientific": "Sturnella neglecta"
    },
@@ -278,7 +278,7 @@
    "WASHINGTON": {
       "FlowerCommon": "Coast Rhododendron",
       "FlowerScientific": "Rhododendron macrophyllum",
-      "BirdCommon": "Willow Goldfinch\nA.k.a American Goldfinch",
+      "BirdCommon": "Willow Goldfinch aka American Goldfinch",
       "BirdScientific": "Spinus tristis"
    },
    "WEST VIRGINIA": {
